@@ -1,0 +1,2 @@
+# pyempire
+Python Empire client
