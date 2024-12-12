@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pyempire"
+version = "0.1.0"
+description = "Python client for Empire"
+authors = [
+    "Jiří Rája <jiri.raja@gmail.com>"
+]
+maintainers = [
+    "Jiří Rája <jiri.raja@gmail.com>"
+]
+license = "MIT"
+homepage = "https://github.com/SadParad1se/pyempire"
+repository = "https://github.com/SadParad1se/pyempire"
+keywords = [
+    "empire", "client"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = "^0.28.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
