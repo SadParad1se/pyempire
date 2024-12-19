@@ -1,6 +1,6 @@
-from pyempire.client import Client
+from pyempire.client import EmpireClient
 
 
-client = Client("localhost", 1337, False, "empireadmin", "password123")
-client.authenticate()
-client.listener_templates()
+client = EmpireClient("localhost", 1337, False, "empireadmin", "password123")
+client.login()
+client.api.listener_templates()
